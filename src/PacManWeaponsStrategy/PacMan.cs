@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PacManWeaponsStrategy
 {
-    public enum PacManState { Spawning, Still, Chomping, SuperPacMan }
+    public enum PacManState { Spawning, Still, Chomping, SuperPacMan, Dying }
 
     public class PacMan 
     {
